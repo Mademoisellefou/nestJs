@@ -1,0 +1,30 @@
+## get
+
+http://localhost:3000/employee/all
+
+## post 
+
+http://localhost:3000/employee/add
+
+{
+    "name": "lib",
+    "salary": 120,
+    "age": 23
+}
+
+## update
+http://localhost:3000/employee/update
+
+{
+    "name": "lib",
+    "salary": 220,
+    "age": 23
+}
+
+## delete 
+
+http://localhost:3000/employee/delete/1
+
+## getOne
+
+http://localhost:3000/employee/getOne/2
